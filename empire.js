@@ -1,0 +1,30 @@
+simRace = 8;
+commonTech(true);
+addDesign("Pl21 Probe",true,0,0,0,0,20,false);
+addDesign("Ru25 Gunboat",true,0,0,0,0,0,false);
+addDesign("Ru25 Gunboats",true,120,270,250,600,10,false);
+addDesign("Ru30 Gunboats",true,150,350,310,750,25,false);
+addDesign("Mig Class Scout",true,0,0,0,0,0,false);
+addDesign("Mig Class Transport",true,60,250,50,500,0,false);
+addDesign("Moscow Class Star Escort",true,0,0,0,0,0,false);
+addDesign("Moscow Class Star Destroyer",true,250,550,890,2850,0,false);
+addDesign("Aries Class Transport",true,140,120,250,650,20,false);
+addDesign("Super Star Carrier",true,0,0,0,0,0,false);
+addDesign("Super Star Carrier II",true,420,910,1130,3200,10,false);
+addDesign("Super Star Destroyer",true,0,0,0,0,60,false);
+addDesign("Super Star Cruiser",true,0,0,0,0,0,false);
+addDesign("Super Star Cruiser II",true,420,710,1220,4900,10,false);
+addDesign("Gorbie Class Battlecarrier",true,0,0,0,0,60,false);
+addDesign("Dark Sense",false,0,0,0,0,70,true);
+addDesign("5 Free Starbase Fighters",false,0,0,0,0,50,false);
+addDesign("Starbase Mine Sweeping",false,340,720,1010,3150,20,false);
+addDesign("Starbase Fighter Sweeping",false,840,540,1325,3800,30,false);
+addDesign("Destroy Planet",false,950,1050,640,3100,30,false);
+addDesign("Debris Disk Defense",false,0,0,0,0,10,true);
+cloneShips();
+for (i = 4; i >= 1; i--) {
+    addDesign(i+" Free Starbase Fighters",false,100*i,300*i,200*i,1000*i,10*i,false);
+}
+addDesign("Starbase Fighter Transfer",false,0,0,0,0,30,false);
+addDesign("Dark Detection",false,380,510,385,2210,25,false);
+//addDesign("Fighter Patrol Routes",false,1570,2110,1890,5890,60,false);
